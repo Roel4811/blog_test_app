@@ -1,3 +1,35 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+ul.small-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.check-green {
+  background-image: image-url('check_green.svg')
+}
+
+// li:before {
+//   position: absolute;
+//   display: block;
+//   content: '\2022'; /* bullet point, for screen readers */
+//   text-indent: -999999px; /* move the bullet point out of sight */
+//   left: -.75em;
+//   width: .4em; /* desired width of the image */
+//   height: 1em; /* unrelated to image height; this is so it gets snipped */
+//   background-repeat: no-repeat;
+//   background-image: image-url('check_green.svg');
+//   background-size: .4em .7em;
+//   background-position: 0 .3em;
+// }
+//
+// .small-list {
+//   font-size: 100%;
+// }
+//
+// .large-list {
+//   font-size: 300%;
+//   line-height: normal;
+// }
